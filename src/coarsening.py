@@ -2,6 +2,7 @@ import numpy as np
 import scipy.sparse
 
 
+
 def coarsen(A, levels, self_connections=False):
     graphs, parents = [A], []
 
